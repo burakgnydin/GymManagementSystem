@@ -1,16 +1,10 @@
-﻿using GymManagementSystem_API.Entity.Base;
-using System.ComponentModel.DataAnnotations;
-
-namespace GymManagementSystem_API.Entity
+﻿namespace GymManagementSystem_API.DTO
 {
-    public class Member : BaseEntity
+    public class EditMemberDTO
     {
-        [Key]
         public int Id { get; set; }
         public string NameSurname { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
-        public int UserTypeId { get; set; } 
-
     }
 }
