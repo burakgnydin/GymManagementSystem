@@ -14,7 +14,7 @@ namespace GymManagementSystem_API.Entity
         public int Age { get; set; }
         public int Weight { get; set; }
         public float Height { get; set; }
-        public float AmountOfWater { get; set; }
+        public float AmountOfWater { get; set; } = 0;
         public int MembershipPeriod { get; set; } = 0;
     }
 }
