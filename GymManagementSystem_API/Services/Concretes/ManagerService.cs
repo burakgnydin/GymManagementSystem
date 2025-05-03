@@ -8,23 +8,23 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GymManagementSystem_API.Services.Concretes
 {
-    public class MemberService : IMemberService
+    public class ManagerService : IManagerService
     {
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
 
-        public MemberService(ApplicationDbContext context, IMapper mapper)
+        public ManagerService(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-        public async Task<CreateMemberDTO> CreateMember(CreateMemberDTO member)
+        public async Task<CreateManagerDTO> CreateManager(CreateManagerDTO manager)
         {
-            var map = _mapper.Map<CreateMemberDTO, Entity.Member>(member);
+            var map = _mapper.Map<CreateManagerDTO, Manager>(manager);
             map.Createddate = DateTime.Now;
             map.Modifieddate = DateTime.Now;
-            var addedObj = _context.Members.Add(map);
-            var response = _mapper.Map<Entity.Member, CreateMemberDTO>(addedObj.Entity);
+            var addedObj = _context.Managers.Add(map);
+            var response = _mapper.Map<Manager, CreateManagerDTO>(addedObj.Entity);
             await _context.SaveChangesAsync();
             return response;
         }
@@ -44,17 +44,25 @@ namespace GymManagementSystem_API.Services.Concretes
         public async Task<ServiceResponse<List<Entity.Member>>> GetAllMembers()
         {
             var result = await _context.Members.ToListAsync();
-            ServiceResponse<List<Entity.Member>> _member = new ServiceResponse<List<Entity.Member>>();
 
-            if (result != null)
+            var response = new ServiceResponse<List<Entity.Member>>();
+
+            if (result.Count > 0)
             {
-                _member.Data = result;
-                _member.Success = true;
-                _member.Message = "Members listed !";
-                return _member;
+                response.Data = result;
+                response.Success = true;
+                response.Message = "Members listed successfully!";
             }
-            throw new KeyNotFoundException($"List of members was not found!");
+            else
+            {
+                response.Data = result;
+                response.Success = false;
+                response.Message = "No members found.";
+            }
+
+            return response;
         }
+
         public async Task<List<Appointment>> GetMemberAppointments(int id, DateTime date)
         {
             var result = await _context.Appointments.Where(x => x.MemberId == id && x.Date == date).ToListAsync();
@@ -67,10 +75,15 @@ namespace GymManagementSystem_API.Services.Concretes
 
         public async Task<Entity.Member> GetMemberById(int id)
         {
-            var result = await _context.Members.FirstOrDefaultAsync(x=>x.Id == id);
-#pragma warning disable CS8603 // Possible null reference return.
-            return result;
-#pragma warning restore CS8603 // Possible null reference return.
+            var result = await _context.Members.FirstOrDefaultAsync(x => x.Id == id);
+            ServiceResponse<List<Entity.Member>> _member = new ServiceResponse<List<Entity.Member>>();
+            if (result != null)
+            {
+                _member.Success = true;
+                return result;
+            }
+            throw new KeyNotFoundException($"There is no member with this ID :{id}");
+
         }
 
         public Task<int> GetMemberCount()
@@ -87,7 +100,7 @@ namespace GymManagementSystem_API.Services.Concretes
 
         public Task SetMembershipPeriod(int id, int day)
         {
-            var result = _context.Customers.Find(id);
+            var result = _context.Members.Find(id);
             if (result != null)
             {
                 result.MembershipPeriod += day;
@@ -97,21 +110,23 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new KeyNotFoundException($"There is no member with this ID :{id}");
         }
 
-        public async Task<EditMemberDTO> UpdateMember(EditMemberDTO member)
+        public async Task<EditManagerDTO> UpdateManager(EditManagerDTO manager)
         {
-            var result = _context.Members.Find(member.Id);
+            var result = _context.Managers.Find(manager.Id);
             if (result != null)
             {
-                var map = _mapper.Map<EditMemberDTO,Entity.Member>(member);
+                var map = _mapper.Map<EditManagerDTO, Manager>(manager);
                 result.NameSurname = map.NameSurname;
-                result.Password = map.Password; 
+                result.Password = map.Password;
                 result.Email = map.Email;
                 result.Modifieddate = DateTime.Now;
-                var response = _mapper.Map<Entity.Member, EditMemberDTO>(map);
+                var response = _mapper.Map<Manager, EditManagerDTO>(map);
                 await _context.SaveChangesAsync();
                 return response;
             }
-            throw new KeyNotFoundException($"There is no member with this ID :{member.Id}");
+            throw new KeyNotFoundException($"There is no manager with this ID :{manager.Id}");
         }
+
+        
     }
 }

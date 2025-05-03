@@ -51,45 +51,7 @@ namespace GymManagementSystem_API.Migrations
                     b.ToTable("Appointments");
                 });
 
-            modelBuilder.Entity("GymManagementSystem_API.Entity.Customer", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Age")
-                        .HasColumnType("int");
-
-                    b.Property<float>("AmountOfWater")
-                        .HasColumnType("real");
-
-                    b.Property<DateTime>("Createddate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<float>("Height")
-                        .HasColumnType("real");
-
-                    b.Property<int>("MemberId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Modifieddate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("NameSurname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Weight")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Customers");
-                });
-
-            modelBuilder.Entity("GymManagementSystem_API.Entity.Member", b =>
+            modelBuilder.Entity("GymManagementSystem_API.Entity.Manager", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -115,15 +77,12 @@ namespace GymManagementSystem_API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserTypeId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.ToTable("Members");
+                    b.ToTable("Managers");
                 });
 
-            modelBuilder.Entity("GymManagementSystem_API.Entity.UserType", b =>
+            modelBuilder.Entity("GymManagementSystem_API.Entity.Member", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -131,19 +90,42 @@ namespace GymManagementSystem_API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<float>("AmountOfWater")
+                        .HasColumnType("real");
+
                     b.Property<DateTime>("Createddate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("Height")
+                        .HasColumnType("real");
+
+                    b.Property<int>("MembershipPeriod")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("Modifieddate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Type")
+                    b.Property<string>("NameSurname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Weight")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.ToTable("UserTypes");
+                    b.ToTable("Members");
                 });
 #pragma warning restore 612, 618
         }

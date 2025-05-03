@@ -1,12 +1,13 @@
-﻿using GymManagementSystem_API.DTO;
+﻿using AutoMapper;
+using GymManagementSystem_API.DTO;
 using GymManagementSystem_API.Entity;
 
 namespace GymManagementSystem_API.Services.Abstracts
 {
-    public interface IMemberService
+    public interface IManagerService
     {
-        Task<CreateMemberDTO> CreateMember(CreateMemberDTO member);
-        Task<EditMemberDTO> UpdateMember(EditMemberDTO member);
+        Task<CreateManagerDTO> CreateManager(CreateManagerDTO managear);
+        Task<EditManagerDTO> UpdateManager(EditManagerDTO manager);
         Task<bool> DeleteMember(int id);
         Task<ServiceResponse<List<Entity.Member>>> GetAllMembers();
         Task<Entity.Member> GetMemberById(int id);
