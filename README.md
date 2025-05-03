@@ -24,7 +24,3 @@ Aşağıdaki yazılımlar bilgisayarında kurulu olmalı:
 git clone https://github.com/burakgnydin/GymManagementSystem_API.git
 cd GymManagementSystem_API
 
-
-
-//aöjshkjsahkjashjksahkas
-

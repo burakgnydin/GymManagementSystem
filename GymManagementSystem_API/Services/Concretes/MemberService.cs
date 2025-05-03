@@ -55,11 +55,46 @@ namespace GymManagementSystem_API.Services.Concretes
             }
             throw new KeyNotFoundException($"List of members was not found!");
         }
+        public async Task<List<Appointment>> GetMemberAppointments(int id, DateTime date)
+        {
+            var result = await _context.Appointments.Where(x => x.MemberId == id && x.Date == date).ToListAsync();
+            if (result != null)
+            {
+                return result;
+            }
+            throw new KeyNotFoundException($"There is no appointment for this member with ID :{id}");
+        }
 
         public async Task<Entity.Member> GetMemberById(int id)
         {
             var result = await _context.Members.FirstOrDefaultAsync(x=>x.Id == id);
+#pragma warning disable CS8603 // Possible null reference return.
             return result;
+#pragma warning restore CS8603 // Possible null reference return.
+        }
+
+        public Task<int> GetMemberCount()
+        {
+            var result = _context.Members.Count();
+#pragma warning disable CS0472 // The result of the expression is always the same since a value of this type is never equal to 'null'
+            if (result != null)
+            {
+                return Task.FromResult(result);
+            }
+#pragma warning restore CS0472 // The result of the expression is always the same since a value of this type is never equal to 'null'
+            throw new KeyNotFoundException("There is no member");
+        }
+
+        public Task SetMembershipPeriod(int id, int day)
+        {
+            var result = _context.Customers.Find(id);
+            if (result != null)
+            {
+                result.MembershipPeriod += day;
+                _context.SaveChanges();
+                return Task.FromResult(result.MembershipPeriod);
+            }
+            throw new KeyNotFoundException($"There is no member with this ID :{id}");
         }
 
         public async Task<EditMemberDTO> UpdateMember(EditMemberDTO member)
