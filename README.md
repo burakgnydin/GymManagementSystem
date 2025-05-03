@@ -11,6 +11,7 @@ Bu proje, bir spor salonu yönetim sistemi için geliştirilmiş **ASP.NET Core 
 Aşağıdaki yazılımlar bilgisayarında kurulu olmalı:
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 - (Opsiyonel) SQL Server veya LocalDB (veritabanı kullanılıyorsa)
 
 ---
