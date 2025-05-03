@@ -10,9 +10,9 @@ namespace GymManagementSystem_API.DatabaseContext
         {  
         }
 
-        public DbSet<Entity.Member> Members { get; set; }
-        public DbSet<Entity.Appointment> Appointments { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Entity.UserType> UserTypes { get; set; }   
+        public DbSet<Manager> Managers { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
+        public DbSet<Member> Members { get; set; }
+     
     }
 }

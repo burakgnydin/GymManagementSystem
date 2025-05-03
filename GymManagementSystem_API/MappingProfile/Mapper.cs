@@ -8,7 +8,7 @@ namespace GymManagementSystem_API.MappingProfile
     {
         public Mapper()
         {
-            CreateMap<Entity.Member,CreateMemberDTO>().ReverseMap();
+            CreateMap<Entity.Manager,CreateMemberDTO>().ReverseMap();
         }
     }
 }
