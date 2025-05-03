@@ -11,5 +11,6 @@ namespace GymManagementSystem_API.Services.Abstracts
         Task<bool> DeleteMember(int id);
         Task<ServiceResponse<List<Entity.Member>>> GetAllMembers();
         Task<Entity.Member> GetMemberById(int id);
+
     }
 }
