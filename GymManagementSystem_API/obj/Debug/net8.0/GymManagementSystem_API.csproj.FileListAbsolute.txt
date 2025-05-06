@@ -1,340 +1,513 @@
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\appsettings.Development.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\appsettings.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.exe
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.deps.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.runtimeconfig.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.pdb
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\AutoMapper.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Azure.Core.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Azure.Identity.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Humanizer.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Mono.TextTemplating.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.ClientModel.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.CodeDom.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.Convention.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.Hosting.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.Runtime.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Formats.Asn1.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.IO.Pipelines.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Memory.Data.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Text.Json.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.csproj.AssemblyReference.cache
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.GeneratedMSBuildEditorConfig.editorconfig
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.AssemblyInfoInputs.cache
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.AssemblyInfo.cs
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.csproj.CoreCompileInputs.cache
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cs
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cache
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.sourcelink.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets.build.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets.development.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.GymManagementSystem_API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.build.GymManagementSystem_API.props
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymManagementSystem_API.props
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymManagementSystem_API.props
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets.pack.json
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\scopedcss\bundle\GymManagementSystem_API.styles.css
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManag.4534996E.Up2Date
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\refint\GymManagementSystem_API.dll
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.pdb
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.genruntimeconfig.cache
-D:\GYM MANAGEMENT SYSTEM\GymManagementSystem_API\GymManagementSystem_API\obj\Debug\net8.0\ref\GymManagementSystem_API.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\appsettings.Development.json
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\appsettings.json
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.exe
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.deps.json
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.runtimeconfig.json
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\GymManagementSystem_API.pdb
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\AutoMapper.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Azure.Core.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Azure.Identity.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Humanizer.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.ClientModel.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.CodeDom.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Formats.Asn1.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.IO.Pipelines.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Text.Json.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Projects\GymSystem\GymManagementSystem_API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.csproj.AssemblyReference.cache
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.AssemblyInfoInputs.cache
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.AssemblyInfo.cs
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.csproj.CoreCompileInputs.cache
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cs
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.sourcelink.json
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets.build.json
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets.development.json
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.GymManagementSystem_API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.build.GymManagementSystem_API.props
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymManagementSystem_API.props
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymManagementSystem_API.props
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\scopedcss\bundle\GymManagementSystem_API.styles.css
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManag.4534996E.Up2Date
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.dll
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\refint\GymManagementSystem_API.dll
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.pdb
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\GymManagementSystem_API.genruntimeconfig.cache
-C:\Projects\GymSystem\GymManagementSystem_API\obj\Debug\net8.0\ref\GymManagementSystem_API.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/appsettings.Development.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/appsettings.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.exe
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.deps.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.runtimeconfig.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.pdb
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/AutoMapper.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Azure.Core.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Azure.Identity.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Humanizer.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Build.Locator.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Mono.TextTemplating.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.ClientModel.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.CodeDom.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Convention.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Hosting.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Runtime.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.TypedParts.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Drawing.Common.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Formats.Asn1.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.IO.Pipelines.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Memory.Data.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Runtime.Caching.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Security.Permissions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Text.Json.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/System.Windows.Extensions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.csproj.AssemblyReference.cache
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.GeneratedMSBuildEditorConfig.editorconfig
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.AssemblyInfoInputs.cache
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.AssemblyInfo.cs
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.csproj.CoreCompileInputs.cache
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cs
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cache
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.sourcelink.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.build.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.development.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.GymManagementSystem_API.Microsoft.AspNetCore.StaticWebAssets.props
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.build.GymManagementSystem_API.props
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GymManagementSystem_API.props
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GymManagementSystem_API.props
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.pack.json
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/scopedcss/bundle/GymManagementSystem_API.styles.css
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManag.4534996E.Up2Date
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/refint/GymManagementSystem_API.dll
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.pdb
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.genruntimeconfig.cache
+D:/GYM MANAGEMENT SYSTEM/GymManagementSystem_API/GymManagementSystem_API/obj/Debug/net8.0/ref/GymManagementSystem_API.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/appsettings.Development.json
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/appsettings.json
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.exe
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.deps.json
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.runtimeconfig.json
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.pdb
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/AutoMapper.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Azure.Core.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Azure.Identity.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Humanizer.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Build.Locator.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Mono.TextTemplating.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.ClientModel.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.CodeDom.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Convention.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Hosting.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Runtime.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.TypedParts.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Drawing.Common.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Formats.Asn1.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.IO.Pipelines.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Memory.Data.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Runtime.Caching.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Text.Json.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+C:/Projects/GymSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.csproj.AssemblyReference.cache
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.AssemblyInfoInputs.cache
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.AssemblyInfo.cs
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.csproj.CoreCompileInputs.cache
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cs
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cache
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.sourcelink.json
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.build.json
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.development.json
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.GymManagementSystem_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.build.GymManagementSystem_API.props
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GymManagementSystem_API.props
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GymManagementSystem_API.props
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/scopedcss/bundle/GymManagementSystem_API.styles.css
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManag.4534996E.Up2Date
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.dll
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/refint/GymManagementSystem_API.dll
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.pdb
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.genruntimeconfig.cache
+C:/Projects/GymSystem/GymManagementSystem_API/obj/Debug/net8.0/ref/GymManagementSystem_API.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/appsettings.Development.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/appsettings.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.staticwebassets.endpoints.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.deps.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.runtimeconfig.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/GymManagementSystem_API.pdb
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/AutoMapper.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Azure.Core.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Azure.Identity.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Humanizer.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Build.Locator.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.ClientModel.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.CodeDom.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Convention.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Hosting.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.Runtime.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Drawing.Common.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Formats.Asn1.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.IO.Pipelines.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Memory.Data.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Runtime.Caching.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Text.Json.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/System.Windows.Extensions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.csproj.AssemblyReference.cache
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.AssemblyInfoInputs.cache
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.AssemblyInfo.cs
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.csproj.CoreCompileInputs.cache
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cs
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.MvcApplicationPartsAssemblyInfo.cache
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.sourcelink.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/scopedcss/bundle/GymManagementSystem_API.styles.css
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.build.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.development.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.GymManagementSystem_API.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.GymManagementSystem_API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.build.GymManagementSystem_API.props
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GymManagementSystem_API.props
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GymManagementSystem_API.props
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/staticwebassets.pack.json
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManag.4534996E.Up2Date
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/refint/GymManagementSystem_API.dll
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.pdb
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/GymManagementSystem_API.genruntimeconfig.cache
+/home/ahmet/Desktop/GyamManagementSystem/GymManagementSystem_API/obj/Debug/net8.0/ref/GymManagementSystem_API.dll
