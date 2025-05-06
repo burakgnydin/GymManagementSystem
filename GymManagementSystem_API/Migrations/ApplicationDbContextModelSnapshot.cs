@@ -42,9 +42,8 @@ namespace GymManagementSystem_API.Migrations
                     b.Property<DateTime>("Modifieddate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymManagementSystem_API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250503205530_InitialCreate")]
+    [Migration("20250506184257_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -45,9 +45,8 @@ namespace GymManagementSystem_API.Migrations
                     b.Property<DateTime>("Modifieddate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 

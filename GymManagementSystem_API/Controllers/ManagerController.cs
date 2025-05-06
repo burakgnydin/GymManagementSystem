@@ -1,6 +1,5 @@
 ﻿using GymManagementSystem_API.DTO;
 using GymManagementSystem_API.Services.Abstracts;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GymManagementSystem_API.Controllers
@@ -16,32 +15,46 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpGet("GetAllMembers")]
-        public IActionResult GetMembers()
+        public async Task<IActionResult> GetMembers()
         {
-            var result = _managerService.GetAllMembers();
+            var result = await _managerService.GetAllMembers();
             return Ok(result);
         }
 
         [HttpGet("GetUniqueMember")]
-        public IActionResult GetMember(EditMemberDTO member)
+        public async Task<IActionResult> GetMember(EditMemberDTO member)
         {
-            var result = _managerService.GetMemberById(member);
+            var result = await _managerService.GetMemberById(member);
             return Ok(result);
         }
 
         [HttpDelete("DeleteMember")]
-        public IActionResult DeleteMember(EditMemberDTO member) 
+        public async Task<IActionResult> DeleteMember(EditMemberDTO member) 
         {
-            var result = _managerService.DeleteMember(member);
+            var result = await _managerService.DeleteMember(member);
             return Ok(result);
         }
 
 
         [HttpPut("UpdateManager")]
-        public IActionResult UpdateManager(EditManagerDTO request)
+        public async Task<IActionResult> UpdateManager(EditManagerDTO request)
         {
-            var result = _managerService.UpdateManager(request);
+            var result = await _managerService.UpdateManager(request);
             return Ok(result);
+        }
+
+        [HttpGet("GetAppointmentById")]
+        public async Task<IActionResult> GetAppointment(EditAppointmentDTO appointment)
+        {
+            try
+            {
+                var result = await _managerService.GetAppointmentByIdAsync(appointment);
+                return Ok(result);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
     }
 }

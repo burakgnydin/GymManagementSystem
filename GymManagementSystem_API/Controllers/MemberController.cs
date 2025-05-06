@@ -17,17 +17,58 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpPut("UpdateMember")]
-        public IActionResult UpdateMember(EditMemberDTO request)
+        public async Task<IActionResult> UpdateMember(EditMemberDTO request)
         {
-            var result = _memberService.UpdateMember(request);
+            var result = await _memberService.UpdateMember(request);
             return Ok(result);
         }
 
         [HttpPut("SetMemberInfo")]
-        public IActionResult EditMemberInfo(EditMemberInfoDTO request)
+        public async Task<IActionResult> EditMemberInfo(EditMemberInfoDTO request)
         {
-            var result = _memberService.EditMemberInfo(request);
+            var result = await _memberService.EditMemberInfo(request);
             return Ok(result);
+        }
+
+        [HttpGet("GetAllAppointments")]
+        public async Task<IActionResult> GetAppointments()
+        {
+            var result = await _memberService.GetAllAppointmentsAsync();
+            if (result.Data == null || result.Data.Count == 0)
+            {
+                return NotFound("No appointments found.");
+            }
+            return Ok(result);
+        }
+
+        [HttpPost("CreateAppointment")]
+        public async Task<IActionResult> CreateAppointment([FromBody] EditAppointmentDTO appointment)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var createdAppointment = await _memberService.CreateAppointment(appointment);
+            return Ok(createdAppointment);
+        }
+
+        [HttpDelete("DeleteAppointment")]
+        public async Task<IActionResult> DeleteAppointment(EditAppointmentDTO appointment)
+        {
+            try
+            {
+                var deleted = await _memberService.DeleteAppointmentAsync(appointment);
+                if (!deleted)
+                {
+                    return NotFound($"Appointment with ID {appointment.Id} not found.");
+                }
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
     }
 }
