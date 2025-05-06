@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using GymManagementSystem_API.DTO;
 using GymManagementSystem_API.Services.Abstracts;
+using GymManagementSystem_API.Services.Concretes;
+using GymManagementSystem_API.Entity;
 
 namespace GymManagementSystem_API.Controllers
 {
@@ -8,17 +10,19 @@ namespace GymManagementSystem_API.Controllers
     [ApiController]
     public class AppointmentController : ControllerBase
     {
-        private readonly IAppointmentService _appointmentService;
+        private readonly IMemberService _memberService;
+        private readonly IManagerService _managerService;
 
-        public AppointmentController(IAppointmentService appointmentService)
+        public AppointmentController(IMemberService appointmentService, IManagerService managerService)
         {
-            _appointmentService = appointmentService;
+            _memberService = appointmentService;
+            _managerService = managerService;
         }
 
         [HttpGet("GetAllAppointments")]
         public async Task<IActionResult> GetAppointments()
         {
-            var result = await _appointmentService.GetAllAppointmentsAsync();
+            var result = await _memberService.GetAllAppointmentsAsync();
             if (result.Data == null || result.Data.Count == 0)
             {
                 return NotFound("No appointments found.");
@@ -27,12 +31,12 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpGet("GetAppointmentById")]
-        public async Task<IActionResult> GetAppointment(int id)
+        public async Task<IActionResult> GetAppointment(EditAppointmentDTO appointment)
         {
             try
             {
-                var appointment = await _appointmentService.GetAppointmentByIdAsync(id);
-                return Ok(appointment);
+                var result = await _managerService.GetAppointmentByIdAsync(appointment);
+                return Ok(result);
             }
             catch (KeyNotFoundException ex)
             {
@@ -41,46 +45,28 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpPost("CreateAppointment")]
-        public async Task<IActionResult> CreateAppointment([FromBody] CreateAppointmentDTO appointment)
+        public async Task<IActionResult> CreateAppointment([FromBody] EditAppointmentDTO appointment)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var createdAppointment = await _appointmentService.CreateAppointment(appointment);
+            var createdAppointment = await _memberService.CreateAppointment(appointment);
             return Ok(createdAppointment);
         }
 
-        [HttpPut("UpdateAppointment")]
-
-        public async Task<IActionResult> UpdateAppointment(int id, [FromBody] EditAppointmentDTO appointment)
-        {
-            if (id != appointment.Id)
-            {
-                return BadRequest("Appointment ID mismatch.");
-            }
-
-            try
-            {
-                var updatedAppointment = await _appointmentService.UpdateAppointmentAsync(id, appointment);
-                return Ok(updatedAppointment);
-            }
-            catch (KeyNotFoundException ex)
-            {
-                return NotFound(ex.Message);
-            }
-        }
+        
 
         [HttpDelete("DeleteAppointment")]
-        public async Task<IActionResult> DeleteAppointment(int id)
+        public async Task<IActionResult> DeleteAppointment(EditAppointmentDTO appointment)
         {
             try
             {
-                var deleted = await _appointmentService.DeleteAppointmentAsync(id);
+                var deleted = await _memberService.DeleteAppointmentAsync(appointment);
                 if (!deleted)
                 {
-                    return NotFound($"Appointment with ID {id} not found.");
+                    return NotFound($"Appointment with ID {appointment.Id} not found.");
                 }
                 return NoContent();
             }

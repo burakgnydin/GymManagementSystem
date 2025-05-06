@@ -16,13 +16,6 @@ namespace GymManagementSystem_API.Controllers
             _memberService = memberService;
         }
 
-        [HttpPost]
-        public IActionResult CreateMember(CreateMemberDTO request)
-        {
-            var result = _memberService.CreateMember(request);
-            return Ok(result);
-        }
-
         [HttpPut("UpdateMember")]
         public IActionResult UpdateMember(EditMemberDTO request)
         {

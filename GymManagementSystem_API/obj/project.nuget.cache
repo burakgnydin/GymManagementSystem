@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hI4qvPdohQo=",
+  "dgSpecHash": "7ElagvvOml8=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\GymSystem\\GymManagementSystem_API\\GymManagementSystem_API.csproj",
+  "projectFilePath": "C:\\Projects\\GymSystem0\\GyamManagementSystem\\GymManagementSystem_API\\GymManagementSystem_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

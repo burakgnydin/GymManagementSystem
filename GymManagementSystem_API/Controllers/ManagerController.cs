@@ -23,27 +23,21 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpGet("GetUniqueMember")]
-        public IActionResult GetMember(int id)
+        public IActionResult GetMember(EditMemberDTO member)
         {
-            var result = _managerService.GetMemberById(id);
+            var result = _managerService.GetMemberById(member);
             return Ok(result);
         }
 
         [HttpDelete("DeleteMember")]
-        public IActionResult DeleteMember(int id) 
+        public IActionResult DeleteMember(EditMemberDTO member) 
         {
-            var result = _managerService.DeleteMember(id);
+            var result = _managerService.DeleteMember(member);
             return Ok(result);
         }
 
-        [HttpPost]
-        public IActionResult CreateManager(CreateManagerDTO request)
-        {
-            var result = _managerService.CreateManager(request);
-            return Ok(result);
-        }
 
-        [HttpPut]
+        [HttpPut("UpdateManager")]
         public IActionResult UpdateManager(EditManagerDTO request)
         {
             var result = _managerService.UpdateManager(request);
