@@ -8,7 +8,7 @@ namespace GymManagementSystem_API.Entity
         [Key]
         public int Id { get; set; }
         public DateTime Date { get; set; }
-        public string Status { get; set; } = string.Empty;
+        public bool Status { get; set; } = false;
         public int MemberId { get; set; }
 
     }

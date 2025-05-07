@@ -19,17 +19,6 @@ namespace GymManagementSystem_API.Services.Concretes
             _mapper = mapper;
         }
 
-        public async Task<CreateMemberDTO> CreateMember(CreateMemberDTO member)
-        {
-            var map = _mapper.Map<CreateMemberDTO, Entity.Member>(member);
-            map.Createddate = DateTime.Now;
-            map.Modifieddate = DateTime.Now;
-            var addedObj = _context.Members.Add(map);
-            var response = _mapper.Map<Entity.Member, CreateMemberDTO>(addedObj.Entity);
-            await _context.SaveChangesAsync();
-            return response;
-        }
-
         public async Task<EditMemberInfoDTO> EditMemberInfo(EditMemberInfoDTO member)
         {
             var result = _context.Members.Find(member.Id);
@@ -44,17 +33,60 @@ namespace GymManagementSystem_API.Services.Concretes
                 return response;
             }
             throw new KeyNotFoundException($"There is no member with this ID :{member.Id}");
-        }        
+        }
+        public async Task<ServiceResponse<List<EditAppointmentDTO>>> GetAllAppointmentsAsync()
+        {
+            var appointments = await _context.Appointments.ToListAsync();
 
-        //public Task<EditMemberInfoDTO> EditAmountOfWater(EditMemberInfoDTO member)
-        //{
-        //    var result = _context.Members.Find(member.Id);
-        //    if (result != null)
-        //    {
-        //        var map = _mapper.Map<EditMemberInfoDTO, Entity.Member>(member);
-        //        result.AmountOfWater += 100;
-        //    }
-        //}
+            var response = new ServiceResponse<List<EditAppointmentDTO>>();
+
+            if (appointments.Count > 0)
+            {
+                response.Data = _mapper.Map<List<Appointment>, List<EditAppointmentDTO>>(appointments);
+                response.Success = true;
+                response.Message = "Appointments listed successfully!";
+            }
+            else
+            {
+                response.Data = new List<EditAppointmentDTO>();
+                response.Success = false;
+                response.Message = "No appointments found.";
+            }
+
+            return response;
+        }
+
+        public async Task<EditAppointmentDTO> CreateAppointment(EditAppointmentDTO appointment)
+        {
+            var map = _mapper.Map<EditAppointmentDTO, Appointment>(appointment);
+            if (map.Status == false)
+            {
+                map.Createddate = DateTime.Now;
+                map.Modifieddate = DateTime.Now;
+                map.Status = true;
+                map.Date = DateTime.Now;
+                map.MemberId = appointment.MemberId;
+                var addedObj = _context.Appointments.Add(map);
+                var response = _mapper.Map<Appointment, EditAppointmentDTO>(addedObj.Entity);
+                await _context.SaveChangesAsync();
+                return response;
+            }
+            throw new Exception("This date is full");     
+        }
+
+        public async Task<bool> DeleteAppointmentAsync(EditAppointmentDTO appointment)
+        {
+            var result = await _context.Appointments.FindAsync(appointment.Id);
+            if (result != null)
+            {
+                _context.Appointments.Remove(result);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            throw new KeyNotFoundException($"Appointment with ID {appointment.Id} was not found.");
+            
+            
+        }
 
         public async Task<EditMemberDTO> UpdateMember(EditMemberDTO member)
         {
@@ -62,16 +94,30 @@ namespace GymManagementSystem_API.Services.Concretes
             var result = _context.Members.Find(member.Id);
             if (result != null)
             {
-                var map = _mapper.Map<EditMemberDTO, Entity.Manager>(member);
+                var map = _mapper.Map<EditMemberDTO, Entity.Member>(member);
                 result.NameSurname = map.NameSurname;
                 result.Password = map.Password;
                 result.Email = map.Email;
                 result.Modifieddate = DateTime.Now;
-                var response = _mapper.Map<Entity.Manager, EditMemberDTO>(map);
+                var response = _mapper.Map<Entity.Member, EditMemberDTO>(map);
                 await _context.SaveChangesAsync();
                 return response;
             }
             throw new KeyNotFoundException($"There is no member with this ID :{member.Id}");
+        }
+
+        public async Task<UpdateWaterDTO> EditAmountOfWater(UpdateWaterDTO water)
+        {
+            var result = _context.Members.Find(water.Id);
+            if (result != null)
+            {
+                var map = _mapper.Map<UpdateWaterDTO, Entity.Member>(water);
+                result.AmountOfWater += water.AmountOfWater;
+                var response = _mapper.Map<Entity.Member, UpdateWaterDTO>(map);
+                await _context.SaveChangesAsync();
+                return response;
+            }
+            throw new Exception();
         }
     }
 }
