@@ -58,11 +58,11 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpGet("GetIdByPassword")]
-        public async Task <IActionResult> GetIdByPassword(GetIdDto password)
+        public async Task <IActionResult> GetIdByPassword(GetIdDto email)
         {
             try
             {
-                var result = await _managerService.GetIdByPasswordAsync(password);
+                var result = await _managerService.GetIdByEmailAsync(email);
                 return Ok(result);
             }
             catch (Exception ex)

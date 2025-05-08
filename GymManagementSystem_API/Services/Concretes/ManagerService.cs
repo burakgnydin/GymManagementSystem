@@ -142,9 +142,9 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new KeyNotFoundException($"There is no manager with this ID :{manager.Id}");
         }
 
-        public async Task<ServiceResponse<int>> GetIdByPasswordAsync(GetIdDto password)
+        public async Task<ServiceResponse<int>> GetIdByEmailAsync(GetIdDto email)
         {
-            var result = await _context.Members.FirstOrDefaultAsync(x => x.Password == password.Password);
+            var result = await _context.Members.FirstOrDefaultAsync(x => x.Email == email.Email);
 
             var response = new ServiceResponse<int>();
             if (result != null)
