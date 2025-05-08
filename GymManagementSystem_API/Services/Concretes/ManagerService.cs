@@ -54,15 +54,22 @@ namespace GymManagementSystem_API.Services.Concretes
             return response;
         }
 
-        Task<GetAppointmentDto> IManagerService.GetAppointmentByIdAsync(GetAppointmentDto appointment)
+        public async Task<ServiceResponse<Appointment>> GetAppointmentByIdAsync(GetAppointmentDto appointment)
         {
-            var result = _context.Appointments.FirstOrDefault(x => x.Id == appointment.Id);
-            if (result == null)
+            var result = await _context.Appointments.FirstOrDefaultAsync(x => x.Id == appointment.Id);
+            var response = new ServiceResponse<Entity.Appointment>();
+            if (result != null)
             {
-                throw new Exception("Appointment not found");
+                response.Data= result;
+                response.Success = true;
             }
-            var response = _mapper.Map<Appointment, GetAppointmentDto>(result);
-            return Task.FromResult(response);
+            else
+            {
+                response.Message = "Appointment was not found";
+                response.Success = false;
+            }
+            
+            return response;
         }
 
         public async Task<ServiceResponse<List<EditAppointmentDTO>>> GetAllAppointmentsAsync()

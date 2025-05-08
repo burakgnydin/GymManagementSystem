@@ -21,7 +21,7 @@ namespace GymManagementSystem_API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetUniqueMember")]
+        [HttpPut("GetUniqueMember")]
         public async Task<IActionResult> GetMember(GetMemberDto member)
         {
             var result = await _managerService.GetMemberById(member);
@@ -43,7 +43,7 @@ namespace GymManagementSystem_API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetAppointmentById")]
+        [HttpPut("GetAppointmentById")]
         public async Task<IActionResult> GetAppointment(GetAppointmentDto appointment)
         {
             try
@@ -57,7 +57,7 @@ namespace GymManagementSystem_API.Controllers
             }
         }
 
-        [HttpGet("GetIdByPassword")]
+        [HttpPut("GetIdByPassword")]
         public async Task <IActionResult> GetIdByPassword(GetIdDto email)
         {
             try
