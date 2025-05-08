@@ -10,6 +10,6 @@ namespace GymManagementSystem_API.Services.Abstracts
         Task<ServiceResponse<List<EditAppointmentDTO>>> GetAllAppointmentsAsync();
         Task<EditAppointmentDTO> CreateAppointment(EditAppointmentDTO appointment);
         Task<bool> DeleteAppointmentAsync(GetAppointmentDto appointment);
-        Task<UpdateWaterDTO> EditAmountOfWater(UpdateWaterDTO water);
+        Task<UpdateWaterDTO> EditAmountOfWaterAsync(UpdateWaterDTO water);
     }
 }

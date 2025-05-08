@@ -70,5 +70,12 @@ namespace GymManagementSystem_API.Controllers
                 return NotFound(ex.Message);
             }
         }
+
+        [HttpPut("EditAmountOfWater")]
+        public async Task<IActionResult> EditEmountOfWater(UpdateWaterDTO water)
+        {
+            var result = await _memberService.EditAmountOfWaterAsync(water);
+            return Ok(result);
+        }
     }
 }

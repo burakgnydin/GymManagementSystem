@@ -106,7 +106,7 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new KeyNotFoundException($"There is no member with this ID :{member.Id}");
         }
 
-        public async Task<UpdateWaterDTO> EditAmountOfWater(UpdateWaterDTO water)
+        public async Task<UpdateWaterDTO> EditAmountOfWaterAsync(UpdateWaterDTO water)
         {
             var result = _context.Members.Find(water.Id);
             if (result != null)

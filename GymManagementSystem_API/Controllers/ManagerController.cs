@@ -1,5 +1,6 @@
 ﻿using GymManagementSystem_API.DTO;
 using GymManagementSystem_API.Services.Abstracts;
+using GymManagementSystem_API.Services.Concretes;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GymManagementSystem_API.Controllers
@@ -69,6 +70,24 @@ namespace GymManagementSystem_API.Controllers
             {
                 return NotFound(ex.Message);
             }
+        }
+
+        [HttpGet("GetAllAppointments")]
+        public async Task<IActionResult> GetAppointments()
+        {
+            var result = await _managerService.GetAllAppointmentsAsync();
+            if (result.Data == null || result.Data.Count == 0)
+            {
+                return NotFound("No appointments found.");
+            }
+            return Ok(result);
+        }
+
+        [HttpPut("SetMemberShipPeriod")]
+        public async Task<IActionResult> SetMemberShipPeriod(MemberShipDTO request)
+        {
+            await _managerService.SetMembershipPeriod(request);
+            return Ok();
         }
 
     }

@@ -120,15 +120,15 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new KeyNotFoundException("There is no member");
         }
 
-        public Task SetMembershipPeriod(MemberShipDTO day)
+        public async Task SetMembershipPeriod(MemberShipDTO day)
         {
             var result = _context.Members.Find(day.Id);
             if (result != null)
             {
                 result.MembershipPeriod += day.Day;
-                _context.SaveChanges();
-                return Task.FromResult(result.MembershipPeriod);
+                await _context.SaveChangesAsync();
             }
+            else
             throw new KeyNotFoundException($"There is no member with this ID :{day.Id}");
         }
 
