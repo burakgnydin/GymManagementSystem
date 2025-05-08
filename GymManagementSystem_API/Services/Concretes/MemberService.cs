@@ -59,11 +59,11 @@ namespace GymManagementSystem_API.Services.Concretes
         public async Task<EditAppointmentDTO> CreateAppointment(EditAppointmentDTO appointment)
         {
             var map = _mapper.Map<EditAppointmentDTO, Appointment>(appointment);
-            if (map.Status == false)
+            if (map.Status == true)
             {
                 map.Createddate = DateTime.Now;
                 map.Modifieddate = DateTime.Now;
-                map.Status = true;
+                map.Status = false;
                 map.Date = DateTime.Now;
                 map.MemberId = appointment.MemberId;
                 var addedObj = _context.Appointments.Add(map);
