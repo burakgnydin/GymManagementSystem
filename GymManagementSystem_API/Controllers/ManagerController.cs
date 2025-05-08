@@ -57,8 +57,8 @@ namespace GymManagementSystem_API.Controllers
             }
         }
 
-        [HttpPut("GetIdByPassword")]
-        public async Task <IActionResult> GetIdByPassword(GetIdDto email)
+        [HttpPut("GetIdByEmail")]
+        public async Task <IActionResult> GetIdByEmail(GetIdDto email)
         {
             try
             {
