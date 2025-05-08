@@ -74,7 +74,7 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new Exception("This date is full");     
         }
 
-        public async Task<bool> DeleteAppointmentAsync(EditAppointmentDTO appointment)
+        public async Task<bool> DeleteAppointmentAsync(GetAppointmentDto appointment)
         {
             var result = await _context.Appointments.FindAsync(appointment.Id);
             if (result != null)

@@ -7,11 +7,12 @@ namespace GymManagementSystem_API.Services.Abstracts
     public interface IManagerService
     {
         Task<EditManagerDTO> UpdateManager(EditManagerDTO manager);
-        Task<bool> DeleteMember(EditMemberDTO member);
+        Task<bool> DeleteMember(GetMemberDto member);
         Task<ServiceResponse<List<Entity.Member>>> GetAllMembers();
-        Task<Entity.Member> GetMemberById(EditMemberDTO member);
+        Task<Entity.Member> GetMemberById(GetMemberDto member);
         Task<int> GetMemberCount();
-        Task<EditAppointmentDTO> GetAppointmentByIdAsync(EditAppointmentDTO appointment);
+        Task<GetAppointmentDto> GetAppointmentByIdAsync(GetAppointmentDto appointment);
+        Task<ServiceResponse<int>> GetIdByPasswordAsync(GetIdDto password);
         Task<ServiceResponse<List<EditAppointmentDTO>>> GetAllAppointmentsAsync();
         Task SetMembershipPeriod(MemberShipDTO day);
     }

@@ -5,6 +5,7 @@ using GymManagementSystem_API.DTO;
 using GymManagementSystem_API.Entity;
 using GymManagementSystem_API.Services.Abstracts;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.Eventing.Reader;
 
 namespace GymManagementSystem_API.Services.Concretes
 {
@@ -19,7 +20,7 @@ namespace GymManagementSystem_API.Services.Concretes
             _mapper = mapper;
         }
 
-        public async Task<bool> DeleteMember(EditMemberDTO member)
+        public async Task<bool> DeleteMember(GetMemberDto member)
         {
             var result = _context.Members.Find(member.Id);
             if (result != null)
@@ -53,14 +54,14 @@ namespace GymManagementSystem_API.Services.Concretes
             return response;
         }
 
-        Task<EditAppointmentDTO> IManagerService.GetAppointmentByIdAsync(EditAppointmentDTO appointment)
+        Task<GetAppointmentDto> IManagerService.GetAppointmentByIdAsync(GetAppointmentDto appointment)
         {
-            var result = _context.Appointments.FirstOrDefault(x => x.MemberId == appointment.MemberId);
+            var result = _context.Appointments.FirstOrDefault(x => x.Id == appointment.Id);
             if (result == null)
             {
                 throw new Exception("Appointment not found");
             }
-            var response = _mapper.Map<Appointment, EditAppointmentDTO>(result);
+            var response = _mapper.Map<Appointment, GetAppointmentDto>(result);
             return Task.FromResult(response);
         }
 
@@ -87,7 +88,7 @@ namespace GymManagementSystem_API.Services.Concretes
         }
 
 
-        public async Task<Entity.Member> GetMemberById(EditMemberDTO member)
+        public async Task<Entity.Member> GetMemberById(GetMemberDto member)
         {
             var result = await _context.Members.FirstOrDefaultAsync(x => x.Id == member.Id);
             ServiceResponse<List<Entity.Member>> _member = new ServiceResponse<List<Entity.Member>>();
@@ -141,6 +142,26 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new KeyNotFoundException($"There is no manager with this ID :{manager.Id}");
         }
 
-        
+        public async Task<ServiceResponse<int>> GetIdByPasswordAsync(GetIdDto password)
+        {
+            var result = await _context.Members.FirstOrDefaultAsync(x => x.Password == password.Password);
+
+            var response = new ServiceResponse<int>();
+            if (result != null)
+            { 
+                response.Data = result.Id;
+                response.Success = true;
+                response.Message = "Id was founded";
+            }
+            else
+            {
+                response.Data = 0;
+                response.Success = false;
+                response.Message = "Id was not founded";
+            }
+            return response;
+
+            
+        }
     }
 }

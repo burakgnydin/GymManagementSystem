@@ -54,7 +54,7 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpDelete("DeleteAppointment")]
-        public async Task<IActionResult> DeleteAppointment(EditAppointmentDTO appointment)
+        public async Task<IActionResult> DeleteAppointment(GetAppointmentDto appointment)
         {
             try
             {

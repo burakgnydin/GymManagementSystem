@@ -22,14 +22,14 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpGet("GetUniqueMember")]
-        public async Task<IActionResult> GetMember(EditMemberDTO member)
+        public async Task<IActionResult> GetMember(GetMemberDto member)
         {
             var result = await _managerService.GetMemberById(member);
             return Ok(result);
         }
 
         [HttpDelete("DeleteMember")]
-        public async Task<IActionResult> DeleteMember(EditMemberDTO member) 
+        public async Task<IActionResult> DeleteMember(GetMemberDto member) 
         {
             var result = await _managerService.DeleteMember(member);
             return Ok(result);
@@ -44,7 +44,7 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpGet("GetAppointmentById")]
-        public async Task<IActionResult> GetAppointment(EditAppointmentDTO appointment)
+        public async Task<IActionResult> GetAppointment(GetAppointmentDto appointment)
         {
             try
             {
@@ -56,5 +56,20 @@ namespace GymManagementSystem_API.Controllers
                 return NotFound(ex.Message);
             }
         }
+
+        [HttpGet("GetIdByPassword")]
+        public async Task <IActionResult> GetIdByPassword(GetIdDto password)
+        {
+            try
+            {
+                var result = await _managerService.GetIdByPasswordAsync(password);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
     }
 }
