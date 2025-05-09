@@ -28,6 +28,19 @@ namespace GymManagementSystem_API.Services.Concretes
                 result.Age = map.Age;
                 result.Weight = map.Weight;
                 result.Height = map.Height;
+                var index = (map.Weight) / ((map.Height * map.Height) / 100);
+                if (index <= 18.5 )
+                {
+                    result.BodyType = "Zayif";
+                }
+                else if(index>18.5 && index <= 24.9 )
+                {
+                    result.BodyType = "Ortalama";
+                }
+                else
+                {
+                    result.BodyType = "Kilolu";
+                }
                 var response = _mapper.Map<Entity.Member, EditMemberInfoDTO>(map);
                 await _context.SaveChangesAsync();
                 return response;
@@ -118,6 +131,26 @@ namespace GymManagementSystem_API.Services.Concretes
                 return response;
             }
             throw new Exception();
+        }
+
+        public Task<ServiceResponse<List<Trainer>>> GetAllTrainersAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceResponse<bool>> ChooseTrainerAsync(GetAppointmentDto appointment)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceResponse<string>> GetBodyTypeAsync(GetMemberDto member)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<EditMemberDTO> UpdateMemberInfoAsync(EditMemberDTO member)
+        {
+            throw new NotImplementedException();
         }
     }
 }
