@@ -15,5 +15,9 @@ namespace GymManagementSystem_API.Services.Abstracts
         Task<ServiceResponse<int>> GetIdByEmailAsync(GetIdDto email);
         Task<ServiceResponse<List<EditAppointmentDTO>>> GetAllAppointmentsAsync();
         Task SetMembershipPeriod(MemberShipDTO day);
+
+        // yeni içerik
+        Task<ServiceResponse<CreateTrainerDto>> CreateTrainerAsync(CreateTrainerDto trainer);
+        Task<ServiceResponse<bool>> DeleteTrainer(GetTrainerDto trainer);
     }
 }

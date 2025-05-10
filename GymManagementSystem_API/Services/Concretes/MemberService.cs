@@ -125,7 +125,7 @@ namespace GymManagementSystem_API.Services.Concretes
             if (result != null)
             {
                 var map = _mapper.Map<UpdateWaterDTO, Entity.Member>(water);
-                result.AmountOfWater += water.AmountOfWater;
+                result.AmountOfWater = water.AmountOfWater;
                 var response = _mapper.Map<Entity.Member, UpdateWaterDTO>(map);
                 await _context.SaveChangesAsync();
                 return response;

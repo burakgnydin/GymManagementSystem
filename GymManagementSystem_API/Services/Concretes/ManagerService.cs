@@ -170,5 +170,15 @@ namespace GymManagementSystem_API.Services.Concretes
 
             
         }
+
+        public Task<ServiceResponse<CreateTrainerDto>> CreateTrainerAsync(CreateTrainerDto trainer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ServiceResponse<bool>> DeleteTrainer(GetTrainerDto trainer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
