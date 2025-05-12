@@ -176,7 +176,7 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResponse<bool>> DeleteTrainer(GetTrainerDto trainer)
+        public Task<ServiceResponse<bool>> DeleteTrainerAsync(GetTrainerDto trainer)
         {
             throw new NotImplementedException();
         }

@@ -18,6 +18,6 @@ namespace GymManagementSystem_API.Services.Abstracts
 
         // yeni içerik
         Task<ServiceResponse<CreateTrainerDto>> CreateTrainerAsync(CreateTrainerDto trainer);
-        Task<ServiceResponse<bool>> DeleteTrainer(GetTrainerDto trainer);
+        Task<ServiceResponse<bool>> DeleteTrainerAsync(GetTrainerDto trainer);
     }
 }

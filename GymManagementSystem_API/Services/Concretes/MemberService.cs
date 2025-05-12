@@ -27,8 +27,8 @@ namespace GymManagementSystem_API.Services.Concretes
                 var map = _mapper.Map<EditMemberInfoDTO, Entity.Member>(member);
                 result.Age = map.Age;
                 result.Weight = map.Weight;
-                result.Height = map.Height;
-                var index = (map.Weight) / ((map.Height * map.Height) / 100);
+                result.Height = map.Height/100;
+                var index = (result.Weight) / (result.Height * result.Height);
                 if (index <= 18.5 )
                 {
                     result.BodyType = "Zayif";
@@ -133,24 +133,80 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new Exception();
         }
 
-        public Task<ServiceResponse<List<Trainer>>> GetAllTrainersAsync()
+        public async Task<ServiceResponse<List<Trainer>>> GetAllTrainersAsync()
         {
-            throw new NotImplementedException();
+            var trainers = await _context.Trainers.ToListAsync();
+            var response = new ServiceResponse<List<Trainer>>();
+
+            if (trainers.Count > 0)
+            {
+                response.Data = trainers;
+                response.Success = true;
+                response.Message = "Trainers listed";
+            }
+            else
+            {
+                response.Data = new List<Trainer>();;
+                response.Success = false;
+                response.Message = "No trainer found";
+            }
+            return response;
         }
 
-        public Task<ServiceResponse<bool>> ChooseTrainerAsync(GetAppointmentDto appointment)
+        public async Task<ServiceResponse<bool>> ChooseTrainerAsync(ChooseTrainerDto trainer)
         {
-            throw new NotImplementedException();
+            var result = _context.Trainers.FirstOrDefault(x => x.NameSurname == trainer.NameSurname);
+            var response = new ServiceResponse<bool>();
+
+
+               if(result != null)
+                {
+                    if (result.IsTraining == false)
+                    {
+                        result.AppointmentId = trainer.AppointmentId;
+                        result.IsTraining = true;
+                        response.Success = true;
+                        response.Data = true;
+                        response.Message = "The trainer was chosen successfully";
+                        await _context.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        response.Data = false;
+                        response.Success = false;
+                        response.Message = "The trainer already has an appointment";
+                    }
+                }
+                else
+                {
+                    response.Data = false ;
+                    response.Success = false;
+                    response.Message = $"There is no trainer with this name {trainer.NameSurname}";
+                }
+            return response;
+            
         }
 
-        public Task<ServiceResponse<string>> GetBodyTypeAsync(GetMemberDto member)
+        public async Task<ServiceResponse<string>> GetBodyTypeAsync(GetMemberDto member)
         {
-            throw new NotImplementedException();
-        }
+            var result = await _context.Members.FirstOrDefaultAsync(x => x.Id == member.Id);
 
-        public Task<EditMemberDTO> UpdateMemberInfoAsync(EditMemberDTO member)
-        {
-            throw new NotImplementedException();
+            var response = new ServiceResponse<string>();
+
+            if (result != null)
+            {
+                response.Data = result.BodyType;
+                response.Success = true;
+                response.Message = "Found";
+            }
+            else
+            {
+                response.Data = string.Empty;
+                response.Success = false;
+                response.Message = "Was not found";
+            }
+            return response;
         }
+       
     }
 }

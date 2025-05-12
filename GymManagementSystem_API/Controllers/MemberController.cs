@@ -77,5 +77,26 @@ namespace GymManagementSystem_API.Controllers
             var result = await _memberService.EditAmountOfWaterAsync(water);
             return Ok(result);
         }
+
+        [HttpGet("GetAllTrainers")]
+        public async Task<IActionResult> GetAlltrainers()
+        {
+            var result = await _memberService.GetAllTrainersAsync();
+            return Ok(result);
+        }
+
+        [HttpPut("ChooseTrainer")]
+        public async Task<IActionResult> ChooseTrainer(ChooseTrainerDto trainer)
+        {
+            var result = await _memberService.ChooseTrainerAsync(trainer);
+            return Ok(result);
+        }
+
+        [HttpPut("GetBodyType")]
+        public async Task<IActionResult> GetBodyType (GetMemberDto request)
+        {
+            var result = await _memberService.GetBodyTypeAsync(request);
+            return Ok(result);  
+        }
     }
 }

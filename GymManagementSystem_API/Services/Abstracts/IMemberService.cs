@@ -11,11 +11,8 @@ namespace GymManagementSystem_API.Services.Abstracts
         Task<EditAppointmentDTO> CreateAppointment(EditAppointmentDTO appointment);
         Task<bool> DeleteAppointmentAsync(GetAppointmentDto appointment);
         Task<UpdateWaterDTO> EditAmountOfWaterAsync(UpdateWaterDTO water);
-
-        //yeni içerik ve controller yapýlacak
         Task<ServiceResponse<List<Trainer>>> GetAllTrainersAsync();
-        Task<ServiceResponse<bool>> ChooseTrainerAsync(GetAppointmentDto appointment); 
+        Task<ServiceResponse<bool>> ChooseTrainerAsync(ChooseTrainerDto trainer); 
         Task<ServiceResponse<string>> GetBodyTypeAsync(GetMemberDto member);
-        Task<EditMemberDTO> UpdateMemberInfoAsync(EditMemberDTO member);
     }
 }
