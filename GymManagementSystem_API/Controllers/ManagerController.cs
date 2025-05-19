@@ -90,5 +90,29 @@ namespace GymManagementSystem_API.Controllers
             return Ok();
         }
 
+        [HttpPost("CreateTrainer")]
+        public async Task<IActionResult> CreateTrainer([FromBody] CreateTrainerDto trainer)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var createdTrainer = await _managerService.CreateTrainerAsync(trainer);
+            return Ok(createdTrainer);
+        }
+
+        [HttpDelete("DeleteTrainer")]
+        public async Task<IActionResult> DeleteTrainer(GetTrainerDto trainer)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var deletedObj = await _managerService.DeleteTrainerAsync(trainer);
+            return Ok(deletedObj);
+        }
+
     }
 }

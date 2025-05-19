@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.Execution;
 using GymManagementSystem_API.DTO;
+using GymManagementSystem_API.Entity;
 
 namespace GymManagementSystem_API.MappingProfile
 {
@@ -17,6 +18,7 @@ namespace GymManagementSystem_API.MappingProfile
             CreateMap<Entity.Member, UpdateWaterDTO>().ReverseMap();
             CreateMap<Entity.Appointment, EditAppointmentDTO>().ReverseMap();
             CreateMap<ChooseTrainerDto, Entity.Trainer>().ReverseMap();
+            CreateMap< CreateTrainerDto, Trainer >().ReverseMap();
 
         }
     }

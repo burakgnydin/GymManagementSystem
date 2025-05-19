@@ -171,14 +171,51 @@ namespace GymManagementSystem_API.Services.Concretes
             
         }
 
-        public Task<ServiceResponse<CreateTrainerDto>> CreateTrainerAsync(CreateTrainerDto trainer)
+        public async Task<ServiceResponse<CreateTrainerDto>> CreateTrainerAsync(CreateTrainerDto trainer)
         {
-            throw new NotImplementedException();
+            var map = _mapper.Map<CreateTrainerDto, Trainer>(trainer);
+            map.Createddate = DateTime.Now;
+            map.Modifieddate = DateTime.Now;
+            map.NameSurname = trainer.NameSurname;
+            var addedObj = _context.Trainers.Add(map);
+            var response_ = _mapper.Map<Trainer, CreateTrainerDto>(addedObj.Entity);
+            await _context.SaveChangesAsync();
+            var response = new ServiceResponse<CreateTrainerDto>();
+            if (response_ != null)
+            {  
+                response.Success = true;
+                response.Data = response_;
+                response.Message = "Trainer created successfuly";
+            }
+            else
+            {
+                response.Success = false;
+                response.Data = new CreateTrainerDto();
+                response.Message = "Trainer could not create";
+            }
+            return response;
+            
         }
 
-        public Task<ServiceResponse<bool>> DeleteTrainerAsync(GetTrainerDto trainer)
+        public async Task<ServiceResponse<bool>> DeleteTrainerAsync(GetTrainerDto trainer)
         {
-            throw new NotImplementedException();
+            var result = await _context.Trainers.FindAsync(trainer.Id);
+            var response = new ServiceResponse<bool>(); 
+            if (result != null)
+            {
+                _context.Trainers.Remove(result);
+                await _context.SaveChangesAsync();
+                response.Message = "Trainer removed successfuly";
+                response.Data = true;
+                response.Success = true;
+            }
+            else
+            {
+                response.Message = "Trainer could not find";
+                response.Data = false;
+                response.Success = false;
+            }
+            return response;
         }
     }
 }
