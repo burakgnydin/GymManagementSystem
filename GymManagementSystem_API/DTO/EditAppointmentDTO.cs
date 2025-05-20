@@ -4,7 +4,7 @@ namespace GymManagementSystem_API.DTO
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
-        public string Status { get; set; } = string.Empty;
+        public bool Status { get; set; } 
         public int MemberId { get; set; }
     }
 }

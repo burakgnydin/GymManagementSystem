@@ -30,10 +30,10 @@ namespace GymManagementSystem_API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetAllAppointments")]
-        public async Task<IActionResult> GetAppointments()
+        [HttpGet("GetAllAppointmentsById")]
+        public async Task<IActionResult> GetAppointments(GetAppointmentDto appointment)
         {
-            var result = await _memberService.GetAllAppointmentsAsync();
+            var result = await _memberService.GetAllAppointmentsByIdAsync(appointment);
             if (result.Data == null || result.Data.Count == 0)
             {
                 return NotFound("No appointments found.");

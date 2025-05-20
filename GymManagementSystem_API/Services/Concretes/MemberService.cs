@@ -47,9 +47,9 @@ namespace GymManagementSystem_API.Services.Concretes
             }
             throw new KeyNotFoundException($"There is no member with this ID :{member.Id}");
         }
-        public async Task<ServiceResponse<List<EditAppointmentDTO>>> GetAllAppointmentsAsync()
+        public async Task<ServiceResponse<List<EditAppointmentDTO>>> GetAllAppointmentsByIdAsync(GetAppointmentDto appointment)
         {
-            var appointments = await _context.Appointments.ToListAsync();
+            var appointments = await _context.Appointments.Where(a => a.MemberId == appointment.Id).ToListAsync();
 
             var response = new ServiceResponse<List<EditAppointmentDTO>>();
 
