@@ -10,6 +10,7 @@ namespace GymManagementSystem_API.Entity
         public DateTime Date { get; set; }
         public bool Status { get; set; } = false;
         public int MemberId { get; set; }
+        public int TrainerId { get; set; }
 
     }
 }

@@ -9,6 +9,5 @@ namespace GymManagementSystem_API.Entity
         public int Id { get; set; }
         public string NameSurname { get; set; } = string.Empty;
         public bool IsTraining { get; set; } = false;
-        public int AppointmentId { get; set; } 
     }
 }

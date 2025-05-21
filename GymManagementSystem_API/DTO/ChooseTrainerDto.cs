@@ -1,8 +1,10 @@
-﻿namespace GymManagementSystem_API.DTO
+﻿using GymManagementSystem_API.Entity;
+
+namespace GymManagementSystem_API.DTO
 {
     public class ChooseTrainerDto
     {
-        public string NameSurname { get; set; } = String.Empty;
+        public int TrainerId { get; set; } 
         public int AppointmentId { get; set; }
 
     }

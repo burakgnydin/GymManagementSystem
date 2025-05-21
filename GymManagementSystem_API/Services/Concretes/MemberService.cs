@@ -69,9 +69,9 @@ namespace GymManagementSystem_API.Services.Concretes
             return response;
         }
 
-        public async Task<EditAppointmentDTO> CreateAppointment(EditAppointmentDTO appointment)
+        public async Task<CreateAppointmentDto> CreateAppointment(CreateAppointmentDto appointment)
         {
-            var map = _mapper.Map<EditAppointmentDTO, Appointment>(appointment);
+            var map = _mapper.Map<CreateAppointmentDto, Appointment>(appointment);
             if (map.Status == true)
             {
                 map.Createddate = DateTime.Now;
@@ -80,7 +80,7 @@ namespace GymManagementSystem_API.Services.Concretes
                 map.Date = DateTime.Now;
                 map.MemberId = appointment.MemberId;
                 var addedObj = _context.Appointments.Add(map);
-                var response = _mapper.Map<Appointment, EditAppointmentDTO>(addedObj.Entity);
+                var response = _mapper.Map<Appointment, CreateAppointmentDto>(addedObj.Entity);
                 await _context.SaveChangesAsync();
                 return response;
             }
@@ -108,9 +108,12 @@ namespace GymManagementSystem_API.Services.Concretes
             if (result != null)
             {
                 var map = _mapper.Map<EditMemberDTO, Entity.Member>(member);
-                result.NameSurname = map.NameSurname;
-                result.Password = map.Password;
-                result.Email = map.Email;
+                if(!string.IsNullOrWhiteSpace(member.NameSurname))
+                    result.NameSurname = map.NameSurname;
+                if (!string.IsNullOrWhiteSpace(member.Password))
+                    result.Password = map.Password;
+                if (!string.IsNullOrWhiteSpace(member.Email))
+                    result.Email = map.Email;
                 result.Modifieddate = DateTime.Now;
                 var response = _mapper.Map<Entity.Member, EditMemberDTO>(map);
                 await _context.SaveChangesAsync();
@@ -155,33 +158,26 @@ namespace GymManagementSystem_API.Services.Concretes
 
         public async Task<ServiceResponse<bool>> ChooseTrainerAsync(ChooseTrainerDto trainer)
         {
-            var result = _context.Trainers.FirstOrDefault(x => x.NameSurname == trainer.NameSurname);
+            var resultTrainer = _context.Trainers.FirstOrDefault(x => x.Id == trainer.TrainerId);
+            var resultAppointment = _context.Appointments.FirstOrDefault(x => x.Id == trainer.AppointmentId);
             var response = new ServiceResponse<bool>();
 
 
-               if(result != null)
+               if(resultTrainer != null && resultAppointment != null)
                 {
-                    if (result.IsTraining == false)
-                    {
-                        result.AppointmentId = trainer.AppointmentId;
-                        result.IsTraining = true;
-                        response.Success = true;
-                        response.Data = true;
-                        response.Message = "The trainer was chosen successfully";
-                        await _context.SaveChangesAsync();
-                    }
-                    else
-                    {
-                        response.Data = false;
-                        response.Success = false;
-                        response.Message = "The trainer already has an appointment";
-                    }
-                }
+                    resultAppointment.TrainerId = trainer.TrainerId;
+                    resultTrainer.IsTraining = true;
+                    response.Success = true;
+                    response.Data = true;
+                    response.Message = "The trainer was chosen successfully";
+                    await _context.SaveChangesAsync();
+
+            }
                 else
                 {
                     response.Data = false ;
                     response.Success = false;
-                    response.Message = $"There is no trainer with this name {trainer.NameSurname}";
+                    response.Message = $"There is no trainer with this Id {trainer.TrainerId}";
                 }
             return response;
             

@@ -30,7 +30,7 @@ namespace GymManagementSystem_API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetAllAppointmentsById")]
+        [HttpPut("GetAllAppointmentsById")]
         public async Task<IActionResult> GetAppointments(GetAppointmentDto appointment)
         {
             var result = await _memberService.GetAllAppointmentsByIdAsync(appointment);
