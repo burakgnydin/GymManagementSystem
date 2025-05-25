@@ -42,7 +42,7 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpPost("CreateAppointment")]
-        public async Task<IActionResult> CreateAppointment([FromBody] EditAppointmentDTO appointment)
+        public async Task<IActionResult> CreateAppointment([FromBody] CreateAppointmentDto appointment)
         {
             if (!ModelState.IsValid)
             {
