@@ -4,6 +4,7 @@ using GymManagementSystem_API.DatabaseContext;
 using GymManagementSystem_API.DTO;
 using GymManagementSystem_API.Entity;
 using GymManagementSystem_API.Services.Abstracts;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Eventing.Reader;
 
@@ -95,6 +96,19 @@ namespace GymManagementSystem_API.Services.Concretes
         }
 
 
+        public async Task<Entity.Member> GetMemberById(GetMemberDto member)
+        {
+            var result = await _context.Members.FirstOrDefaultAsync(x => x.Id == member.Id);
+            ServiceResponse<List<Entity.Member>> _member = new ServiceResponse<List<Entity.Member>>();
+            if (result != null)
+            {
+                _member.Success = true;
+                return result;
+            }
+            throw new KeyNotFoundException($"There is no member with this Id :{member.Id}");
+
+        }
+
         public async Task<Entity.Member> GetMemberByName(GetMemberDtoByNameDto member)
         {
             var result = await _context.Members.FirstOrDefaultAsync(x => x.NameSurname == member.NameSurname);
@@ -107,6 +121,7 @@ namespace GymManagementSystem_API.Services.Concretes
             throw new KeyNotFoundException($"There is no member with this name :{member.NameSurname}");
 
         }
+
 
         public Task<int> GetMemberCount()
         {
