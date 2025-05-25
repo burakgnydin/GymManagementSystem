@@ -19,6 +19,7 @@ namespace GymManagementSystem_API.MappingProfile
             CreateMap<Entity.Appointment, EditAppointmentDTO>().ReverseMap();
             CreateMap<ChooseTrainerDto, Entity.Trainer>().ReverseMap();
             CreateMap< CreateTrainerDto, Trainer >().ReverseMap();
+            CreateMap<CreateAppointmentDto, Appointment>().ReverseMap();
 
         }
     }
