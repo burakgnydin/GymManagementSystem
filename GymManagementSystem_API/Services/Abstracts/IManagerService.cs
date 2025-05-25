@@ -9,7 +9,7 @@ namespace GymManagementSystem_API.Services.Abstracts
         Task<EditManagerDTO> UpdateManager(EditManagerDTO manager);
         Task<bool> DeleteMember(GetMemberDto member);
         Task<ServiceResponse<List<Entity.Member>>> GetAllMembers();
-        Task<Entity.Member> GetMemberById(GetMemberDto member);
+        Task<Entity.Member> GetMemberByName(GetMemberDtoByNameDto member);
         Task<int> GetMemberCount();
         Task<ServiceResponse<Appointment>> GetAppointmentByIdAsync(GetAppointmentDto appointment);
         Task<ServiceResponse<int>> GetIdByEmailAsync(GetIdDto email);

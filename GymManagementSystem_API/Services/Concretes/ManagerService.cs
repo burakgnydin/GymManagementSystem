@@ -95,16 +95,16 @@ namespace GymManagementSystem_API.Services.Concretes
         }
 
 
-        public async Task<Entity.Member> GetMemberById(GetMemberDto member)
+        public async Task<Entity.Member> GetMemberByName(GetMemberDtoByNameDto member)
         {
-            var result = await _context.Members.FirstOrDefaultAsync(x => x.Id == member.Id);
+            var result = await _context.Members.FirstOrDefaultAsync(x => x.NameSurname == member.NameSurname);
             ServiceResponse<List<Entity.Member>> _member = new ServiceResponse<List<Entity.Member>>();
             if (result != null)
             {
                 _member.Success = true;
                 return result;
             }
-            throw new KeyNotFoundException($"There is no member with this ID :{member.Id}");
+            throw new KeyNotFoundException($"There is no member with this name :{member.NameSurname}");
 
         }
 

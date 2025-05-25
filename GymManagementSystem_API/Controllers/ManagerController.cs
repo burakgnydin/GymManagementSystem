@@ -23,9 +23,9 @@ namespace GymManagementSystem_API.Controllers
         }
 
         [HttpPut("GetUniqueMember")]
-        public async Task<IActionResult> GetMember(GetMemberDto member)
+        public async Task<IActionResult> GetMember(GetMemberDtoByNameDto member)
         {
-            var result = await _managerService.GetMemberById(member);
+            var result = await _managerService.GetMemberByName(member);
             return Ok(result);
         }
 
